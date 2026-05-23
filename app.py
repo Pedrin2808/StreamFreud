@@ -8,20 +8,6 @@ import streamlit as st
 
 MODEL= 'gemini-3.1-flash-lite' #JAMAIS ALTERAR ESSE MODELO, PODE CAUSAR ERROS
 
-class Pessoa(BaseModel):
-    nome: str
-    idade: int
-    time_favorito: str
-
-john_pedro = Pessoa(
-    nome="John Pedro",
-    idade=28,
-    time_favorito="VASCO"
-)
-
-print(john_pedro.nome)
-print(john_pedro.idade)
-print(john_pedro.time_favorito )
 
 class Refeicao(BaseModel):
     nome: str = Field(description="Nome do prato identificado na foto.")
