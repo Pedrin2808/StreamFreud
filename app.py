@@ -49,7 +49,7 @@ except Exception as e:
 # CSS personalizado e Branding para layout Premium
 st.markdown("""
     <div style="text-align: center; padding: 1.5rem; margin-bottom: 2rem; background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-radius: 12px; border: 1px solid #334155;">
-        <h1 style="color: #f8fafc; font-family: 'Inter', sans-serif; font-size: 2.8rem; margin: 0; font-weight: 800;">🥗 NutriScan <span style="background: linear-gradient(90deg, #38bdf8 0%, #34d399 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">AI</span></h1>
+        <h1 style="color: #f8fafc; font-family: 'Inter', sans-serif; font-size: 2.8rem; margin: 0; font-weight: 800;">🥗 NutriPedro <span style="background: linear-gradient(90deg, #38bdf8 0%, #34d399 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">AI</span></h1>
         <p style="color: #94a3b8; font-size: 1.1rem; margin-top: 0.5rem; margin-bottom: 0;">Análise nutricional instantânea e inteligente baseada em imagens</p>
     </div>
     
