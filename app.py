@@ -1,4 +1,3 @@
-from pydantic import BaseModel, Field
 from google import genai
 from PIL import Image
 import streamlit as st
